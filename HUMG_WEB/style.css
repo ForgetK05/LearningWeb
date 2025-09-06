@@ -1,14 +1,8 @@
-body {
-    margin: 0px;
-}
-
-header {
-    border-bottom: 10px solid #f1f1f2;
-}
-
 nav {
     background-color: #0c4ca3;
-    padding: 5px;
+    padding: 1px;
+    display: flex;
+    justify-content: center;
 }
 
 ul {
@@ -18,12 +12,29 @@ ul {
     gap: 20px;
 }
 
+.banner-qc {
+    justify-content: center;
+    margin: 10px 0px;
+    display: flex;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    justify-content: center;
+    border-bottom: 10px solid #f1f1f2;
+}
+
 li {
     padding: 15px;
 }
 
 .border {
-    border-right: 1px solid gray;
+    border-right: 2px solid gray;
+
 }
 
 .danhmuc-lienket {
@@ -33,34 +44,58 @@ li {
 
 }
 
-.banner-qc {
-    display: flex;
-    justify-content: center;
-    margin: 10px 0px;
-}
-
-.qc {
-    display: flex;
-    justify-content: space-between;
-}
-
-.news {
-    border-bottom: 3px solid #0f75bc;
-    color: #024da1;
-    font-size: 25px;
-    line-height: 52px;
-    padding: 5px 0 15px;
-    text-transform: uppercase;
-}
-
 .news_window {
     display: flex;
-    border-right: 1px solid gray;
+    border-right: 1px solid rgb(199, 187, 187);
     justify-content: center;
     margin: auto;
 }
 
-.size_anh {
-    width: 1px;
-    height: 1px;
+.news {
+    background-color: rgb(255, 255, 255);
+
+}
+
+.thong-bao {
+    background-color: #f1f1f2;
+}
+
+
+.anh {
+    gap: 40px;
+    margin: 10px;
+}
+
+.tin-tuc {
+    color: #1b66d8;
+    font-size: 25px;
+    margin: 10px;
+}
+
+body {
+    display: flex;
+    /* Hoặc display: grid */
+    justify-content: center;
+    /* Căn giữa thẻ bao bọc theo chiều ngang */
+}
+
+.main-wrapper {
+    width: 100%;
+    /* Chiếm toàn bộ chiều rộng của body */
+    max-width: 1900px;
+    /* Giới hạn chiều rộng tối đa */
+}
+
+.footer {
+    background-color: #125bc0;
+    color: white;
+    text-align: start;
+    padding: 1px 0;
+    margin-top: 2px;
+    font-size: 17px;
+    font-family: Roboto, Arial, Tahoma;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    /* Tạo khoảng cách 20px giữa hai div */
 }
