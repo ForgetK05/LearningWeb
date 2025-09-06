@@ -96,6 +96,6 @@ body {
     font-family: Roboto, Arial, Tahoma;
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 20px;
     /* Tạo khoảng cách 20px giữa hai div */
 }
