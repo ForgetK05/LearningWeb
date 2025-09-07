@@ -16,12 +16,14 @@ ul {
     justify-content: center;
     margin: 10px 0px;
     display: flex;
+    border: 2px solid gray;
 }
 
 .banner {
     display: flex;
     justify-content: center;
 }
+
 
 header {
     justify-content: center;
@@ -46,8 +48,10 @@ li {
 
 .news_window {
     display: flex;
+    flex-direction: row;
     border-right: 1px solid rgb(199, 187, 187);
     justify-content: center;
+    gap: 20px;
     margin: auto;
 }
 
@@ -60,10 +64,23 @@ li {
     background-color: #f1f1f2;
 }
 
+.thong-bao-list {
+    justify-self: center;
+    display: table-row;
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
 
 .anh {
     gap: 40px;
     margin: 10px;
+}
+
+.anh-qc {
+    margin: 10px;
+    border: 2px solid gray;
 }
 
 .tin-tuc {
@@ -97,5 +114,15 @@ body {
     display: flex;
     justify-content: center;
     gap: 20px;
-    /* Tạo khoảng cách 20px giữa hai div */
+    background-image: linear-gradient(183456deg, #2a4b7a, #888686);
+}
+
+.partner {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+    border-top: 2px solid gray;
+    padding-top: 10px;
+    background-image: linear-gradient(183456deg, #3b3d3f, #6c6b77);
 }
